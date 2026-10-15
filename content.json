@@ -1,0 +1,238 @@
+{
+  "capabilities": [
+    {
+      "index": "01",
+      "title": "Product & Experience",
+      "description": "Connecting user needs, creative direction and practical execution.",
+      "skills": [
+        "UI/UX Design",
+        "Content Strategy",
+        "Product Thinking",
+        "User-Centred Design",
+        "Social Analytics",
+        "Visual Storytelling"
+      ]
+    },
+    {
+      "index": "02",
+      "title": "Development & Data",
+      "description": "Bringing ideas into working software and evidence-based experiments.",
+      "skills": [
+        "HTML & CSS",
+        "JavaScript",
+        "React",
+        "Node.js",
+        "Python",
+        "SQL / MySQL",
+        "C++",
+        "Machine Learning"
+      ]
+    },
+    {
+      "index": "03",
+      "title": "Creative & Cloud",
+      "description": "Combining distinctive visuals with a foundation in modern technology.",
+      "skills": [
+        "Graphic Design",
+        "Video Editing",
+        "Brand Visuals",
+        "Photography",
+        "Cloud Fundamentals",
+        "AWS / Azure / GCP Exposure"
+      ]
+    }
+  ],
+  "certifications": [
+    "Microsoft Word Expert Certification",
+    "Web Development",
+    "Graphic Design & Logo Design",
+    "Photography & Videography",
+    "Cloud Computing",
+    "Cybersecurity"
+  ],
+  "education": [
+    {
+      "institution": "Bahria University Lahore",
+      "award": "BS Computer Science",
+      "period": "2023 — 2027",
+      "detail": "Undergraduate studies · expected completion 2027"
+    },
+    {
+      "institution": "PGC College",
+      "award": "Intermediate · ICS",
+      "period": "2021 — 2023",
+      "detail": "Computer Science"
+    },
+    {
+      "institution": "KIPS School",
+      "award": "Matriculation",
+      "period": "2019 — 2021",
+      "detail": "Computer Science"
+    }
+  ],
+  "experience": [
+    {
+      "role": "Graphic Designer & Video Editor",
+      "organization": "Datawavez Technologies",
+      "period": "Jul 2026 — Present",
+      "detail": "Creative production and fast-moving cross-team coordination in a deadline-driven environment.",
+      "area": "Design"
+    },
+    {
+      "role": "Graphic Designer, Video Editor & Social Media Handler",
+      "organization": "NUSK IT Consultancy Ltd",
+      "period": "Feb 2025 — Present",
+      "detail": "End-to-end branded content, social media strategy and analytics-informed creative iterations.",
+      "area": "Creative strategy"
+    },
+    {
+      "role": "X (Twitter) Graphic Designer",
+      "organization": "NEXA Strategies Ltd",
+      "period": "2024 — Present",
+      "detail": "Audience-focused visuals, campaign collaboration and content performance analysis.",
+      "area": "Digital growth"
+    },
+    {
+      "role": "UI/UX Design Intern",
+      "organization": "Bronto Brains",
+      "period": "2024 — Present",
+      "detail": "Design contributions and creative problem solving across evolving brand requirements.",
+      "area": "UI/UX"
+    },
+    {
+      "role": "Cloud Engineering Intern",
+      "organization": "Zee Outsourcing Solutions",
+      "period": "Jun — Aug 2026",
+      "detail": "Exposure to AWS, Azure and Google Cloud, with deployment, scaling, monitoring and cloud infrastructure fundamentals.",
+      "area": "Cloud"
+    },
+    {
+      "role": "Admissions Department Intern",
+      "organization": "Bahria University Lahore",
+      "period": "Jul — Aug 2024",
+      "detail": "Applicant workflows, stakeholder communication and process improvement opportunities.",
+      "area": "Operations"
+    },
+    {
+      "role": "Online Computer Science Teacher",
+      "organization": "Al-Suffah Academy & Avalon Academy",
+      "period": "Aug 2023 — Jun 2025",
+      "detail": "Curriculum design, structured teaching and iterative feedback-informed learning experiences.",
+      "area": "Education"
+    }
+  ],
+  "featuredProjects": [
+    {
+      "id": "moodwave",
+      "number": "01",
+      "title": "MoodWave",
+      "subtitle": "Music that meets your mood.",
+      "category": "Web Apps",
+      "type": "Full-stack development",
+      "description": "A mood-based music recommendation experience, blending a streaming-inspired interface with music discovery, genre filtering and playback.",
+      "tags": [
+        "React",
+        "JavaScript",
+        "Node.js",
+        "Python",
+        "SQL"
+      ],
+      "url": "https://github.com/MaidaAdeelKhan/moodwave_node_django",
+      "visual": "moodwave",
+      "featured": true
+    },
+    {
+      "id": "traffic",
+      "number": "02",
+      "title": "Traffic Sign Detection",
+      "subtitle": "Smarter recognition through AI.",
+      "category": "AI & Data",
+      "type": "Machine learning",
+      "description": "A CNN-based traffic sign classification project built with TensorFlow and an interface for image or camera input. The GitHub description reports 95% accuracy on GTSRB.",
+      "tags": [
+        "Python",
+        "TensorFlow",
+        "CNN",
+        "Computer Vision"
+      ],
+      "url": "https://github.com/MaidaAdeelKhan/Traffic-Sign-Detection",
+      "visual": "traffic",
+      "featured": true
+    },
+    {
+      "id": "cancer",
+      "number": "03",
+      "title": "Cancer Research · ML Regression",
+      "subtitle": "Understanding data with care.",
+      "category": "AI & Data",
+      "type": "Research & analysis",
+      "description": "A machine-learning regression study comparing feature-selection approaches, with learning curves, correlation analysis and actual-versus-predicted visualisations.",
+      "tags": [
+        "Machine Learning",
+        "Regression",
+        "Random Forest",
+        "Data Visualisation"
+      ],
+      "url": null,
+      "visual": "research"
+    },
+    {
+      "id": "movies",
+      "number": "04",
+      "title": "Movie Recommendation System",
+      "subtitle": "Discovery driven by preferences.",
+      "category": "Web Apps",
+      "type": "Database application",
+      "description": "A web-based movie recommendation project where audiences can browse genre-based listings, ratings and feedback through a MySQL-backed experience.",
+      "tags": [
+        "Python",
+        "MySQL",
+        "HTML"
+      ],
+      "url": "https://github.com/MaidaAdeelKhan/DBMS-SQL-Movie-Recommendation-system",
+      "visual": "movies"
+    },
+    {
+      "id": "codealpha",
+      "number": "05",
+      "title": "Frontend Design Lab",
+      "subtitle": "Small interactions, better experiences.",
+      "category": "Web Apps",
+      "type": "Frontend internship work",
+      "description": "A collection of HTML, CSS and JavaScript experiments developed for frontend internship assignments, including interface-focused mini projects.",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "url": "https://github.com/MaidaAdeelKhan/CodeAlpha_Project_MaidaKhan_FrontEnd",
+      "visual": "frontend"
+    },
+    {
+      "id": "showroom",
+      "number": "06",
+      "title": "Fantasy Car Showroom",
+      "subtitle": "An exploration in C++.",
+      "category": "Software",
+      "type": "Programming project",
+      "description": "A car-showroom themed programming project shared publicly on GitHub, representing hands-on C++ learning and problem solving.",
+      "tags": [
+        "C++",
+        "Programming"
+      ],
+      "url": "https://github.com/MaidaAdeelKhan/Fantasy-Car-showroom",
+      "visual": "showroom"
+    }
+  ],
+  "profile": {
+    "name": "Maida Khan",
+    "firstName": "Maida",
+    "location": "Lahore, Pakistan",
+    "email": "maidakhan1974@gmail.com",
+    "phoneDisplay": "+92 306 4122780",
+    "phoneLink": "+923064122780",
+    "github": "https://github.com/MaidaAdeelKhan/",
+    "linkedin": "https://www.linkedin.com/in/maddy-khanam-962189302",
+    "resume": "assets/Maida-Khan-Resume.pdf"
+  }
+}
