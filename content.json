@@ -234,5 +234,157 @@
     "github": "https://github.com/MaidaAdeelKhan/",
     "linkedin": "https://www.linkedin.com/in/maddy-khanam-962189302",
     "resume": "assets/Maida-Khan-Resume.pdf"
-  }
+  },
+  "designCategories": [
+    "Events",
+    "Social Ads",
+    "Illustration",
+    "Product Ads"
+  ],
+  "designs": [
+    {
+      "file": "events/agentify-workshop.webp",
+      "category": "Events",
+      "title": "Agentify · AI Agentic Workshop",
+      "caption": "GDGoC Bahria University Lahore",
+      "alt": "Event poster for the Agentify AI agentic workshop with date, venue and time",
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "events/fyp-open-house.webp",
+      "category": "Events",
+      "title": "FYP Open House '26",
+      "caption": "GDGoC Bahria University Lahore",
+      "alt": "Banner for the FYP Open House 2026 with a futuristic astronaut illustration",
+      "w": 1200,
+      "h": 600
+    },
+    {
+      "file": "events/she-codes-the-future.webp",
+      "category": "Events",
+      "title": "She Codes the Future 2.0",
+      "caption": "GDGoC Bahria University Lahore",
+      "alt": "Event banner reading She Codes the Future 2.0, built by women, powered by tech",
+      "w": 1200,
+      "h": 600
+    },
+    {
+      "file": "events/gdgoc-itu-team-visit.webp",
+      "category": "Events",
+      "title": "GDGoC ITU Team Visit",
+      "caption": "GDGoC Bahria University Lahore",
+      "alt": "Purple glass-style announcement card for a team visit with date and time",
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "events/executive-team-2024-25.webp",
+      "category": "Events",
+      "title": "The Executive Team",
+      "caption": "GDGoC · 2024–2025",
+      "alt": "Wide graphic for the Google Developer Groups 2024 to 2025 executive team",
+      "w": 1400,
+      "h": 583
+    },
+    {
+      "file": "events/independence-day.webp",
+      "category": "Events",
+      "title": "14th August · Independence Day",
+      "caption": "Greeting post",
+      "alt": "Pakistan Independence Day greeting with Minar-e-Pakistan and calligraphy",
+      "w": 1080,
+      "h": 1080
+    },
+    {
+      "file": "events/bulc-mun-code-of-conduct.webp",
+      "category": "Events",
+      "title": "BULC MUN '26 · Code of Conduct",
+      "caption": "Bahria University Lahore",
+      "alt": "Navy and gold delegate code of conduct cover for BULC Model United Nations",
+      "w": 1240,
+      "h": 1748
+    },
+    {
+      "file": "social/dermics-laser-deals.webp",
+      "category": "Social Ads",
+      "title": "Full Body Laser Deals",
+      "caption": "Social ad · Dermics",
+      "alt": "Price-list social ad for full body laser treatments",
+      "w": 1400,
+      "h": 1750
+    },
+    {
+      "file": "social/dermics-dont-pop.webp",
+      "category": "Social Ads",
+      "title": "Don't Pop, Treat It!",
+      "caption": "Social ad · Dermics",
+      "alt": "Skincare awareness social ad with bold headline and booking button",
+      "w": 1400,
+      "h": 1750
+    },
+    {
+      "file": "illustration/osint-hq-detective.webp",
+      "category": "Illustration",
+      "title": "Info-Blurbs HQ",
+      "caption": "OSINT retro series",
+      "alt": "Retro noir illustration of a detective outside Info-Blurbs HQ",
+      "w": 1400,
+      "h": 1462
+    },
+    {
+      "file": "illustration/osint-rocket.webp",
+      "category": "Illustration",
+      "title": "Signal Rocket",
+      "caption": "OSINT retro series",
+      "alt": "Golden retro-futurist figure flying with rockets across a starry sky",
+      "w": 1121,
+      "h": 862
+    },
+    {
+      "file": "illustration/osint-radar.webp",
+      "category": "Illustration",
+      "title": "Data Is the Reality",
+      "caption": "OSINT retro series",
+      "alt": "Radar dish beaming light onto a desert at dusk, retro comic style",
+      "w": 1376,
+      "h": 768
+    },
+    {
+      "file": "illustration/osint-astronaut.webp",
+      "category": "Illustration",
+      "title": "Moonlight Pilot",
+      "caption": "OSINT retro series",
+      "alt": "Retro sci-fi illustration of a golden astronaut beside a rocket car",
+      "w": 1018,
+      "h": 1175
+    },
+    {
+      "file": "product/beef-xp.webp",
+      "category": "Product Ads",
+      "title": "BEEF-XP Nutrition Callouts",
+      "caption": "Product promo creative",
+      "alt": "Protein product ad with bold nutrition callouts on a blue splash background",
+      "w": 1200,
+      "h": 1200
+    },
+    {
+      "file": "product/iso-xp-bundle.webp",
+      "category": "Product Ads",
+      "title": "ISO-XP Free Amino Bundle",
+      "caption": "Product promo creative",
+      "alt": "Protein product ad with a red FREE bundle banner",
+      "w": 1200,
+      "h": 1200
+    },
+    {
+      "file": "product/iso-whey-servings.webp",
+      "category": "Product Ads",
+      "title": "ISO Whey Zero Banner",
+      "caption": "Product promo creative",
+      "alt": "Whey protein ad listing per-serving nutrition and added amino acids",
+      "w": 1200,
+      "h": 1200
+    }
+  ]
 }

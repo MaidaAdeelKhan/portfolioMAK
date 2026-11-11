@@ -85,5 +85,27 @@
     }, { rootMargin: '-28% 0px -62% 0px', threshold: 0 });
     $$('section[id]').forEach((section) => observer.observe(section));
   }
+  // Design gallery: category filter + accessible lightbox.
+  const designCards = $$('.design-card');
+  const designFilters = $$('[data-design-filter]');
+  designFilters.forEach((button) => button.addEventListener('click', () => {
+    const filter = button.dataset.designFilter;
+    designFilters.forEach((b) => { const on = b === button; b.classList.toggle('filter-active', on); b.setAttribute('aria-pressed', String(on)); });
+    designCards.forEach((card) => { card.hidden = filter !== 'All' && card.dataset.category !== filter; });
+  }));
+  const lightbox = $('#design-lightbox');
+  if (lightbox && typeof lightbox.showModal === 'function') {
+    const bigImage = lightbox.querySelector('img');
+    const bigCaption = lightbox.querySelector('p');
+    $$('.design-open').forEach((open) => open.addEventListener('click', () => {
+      const img = open.querySelector('img');
+      const card = open.parentElement;
+      bigImage.src = img.currentSrc || img.src;
+      bigImage.alt = img.alt;
+      bigCaption.textContent = `${card.querySelector('strong').textContent} — ${card.querySelector('span').textContent}`;
+      lightbox.showModal();
+    }));
+    lightbox.addEventListener('click', (event) => { if (event.target === lightbox || event.target.closest('.design-close')) lightbox.close(); });
+  }
   $('#footer-year').textContent = String(new Date().getFullYear());
 })();
