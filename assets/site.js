@@ -48,7 +48,7 @@
     const expanded = moreButton.getAttribute('aria-expanded') === 'true';
     extraExperience.forEach((row) => { row.hidden = expanded; });
     moreButton.setAttribute('aria-expanded', String(!expanded));
-    moreButton.innerHTML = `${expanded ? 'View all 7 experiences' : 'Show fewer experiences'} <span class="${expanded ? '' : 'rotate-arrow'}"><svg class="icon" width="17" height="17" viewBox="0 0 24 24"><use href="#i-arrow-down"/></svg></span>`;
+    moreButton.innerHTML = `${expanded ? `View all ${extraExperience.length + 4} experiences` : 'Show fewer experiences'} <span class="${expanded ? '' : 'rotate-arrow'}"><svg class="icon" width="17" height="17" viewBox="0 0 24 24"><use href="#i-arrow-down"/></svg></span>`;
   });
 
   // Actual clipboard action (mailto fallback when permissions are unavailable).
