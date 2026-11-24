@@ -8,8 +8,8 @@ An expressive, professional and responsive portfolio for **Maida Khan**, a desig
 
 - Premium dark aesthetic with a fully working light-mode toggle.
 - Responsive navigation, mobile layout and accessible keyboard interactions.
-- Six project cards with original illustrative design, filtering, and verified repository links where publicly available.
-- About, 7 experience entries, skills, education and certifications based on the supplied CV.
+- Ten project cards with original illustrative design, filtering, and repository links where publicly available.
+- About, 9 experience entries, skills, education, leadership and certifications based on the latest ATS resume.
 - Direct email/contact links, copy-email action, LinkedIn and GitHub links.
 - Downloadable CV (`assets/Maida-Khan-Resume.pdf`).
 - SEO/social preview image and structured Person metadata.

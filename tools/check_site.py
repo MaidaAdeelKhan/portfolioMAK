@@ -21,9 +21,10 @@ for item in ['home','about','work','experience','skills','contact','main-nav','t
 for asset in set(scanner.refs):
     assert (ROOT/asset).is_file(), f'Missing asset: {asset}'
 content=json.loads((ROOT/'content.json').read_text(encoding='utf-8'))
-assert scanner.count==len(content['featuredProjects'])==6, f'Wrong project count: {scanner.count}'
+assert scanner.count==len(content['featuredProjects']), f'Wrong project count: {scanner.count}'
 for p in content['featuredProjects']:
     if p['url']:
         assert p['url'].startswith('https://github.com/MaidaAdeelKhan/'), f'Unexpected repository URL {p["url"]}'
+assert 'leadership-block' in (ROOT/'index.html').read_text(encoding='utf-8'), 'Missing leadership block'
 assert (ROOT/'assets/Maida-Khan-Resume.pdf').stat().st_size>10000
 print('PASS: All required sections, project cards, repository URLs and local assets are present.')

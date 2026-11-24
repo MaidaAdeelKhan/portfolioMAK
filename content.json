@@ -6,16 +6,20 @@
       "description": "Connecting user needs, creative direction and practical execution.",
       "skills": [
         "UI/UX Design",
-        "Content Strategy",
+        "Figma",
+        "Wireframing",
+        "Prototyping",
         "Product Thinking",
-        "User-Centred Design",
+        "Content Strategy",
+        "KPI Tracking",
         "Social Analytics",
-        "Visual Storytelling"
+        "Stakeholder Communication",
+        "User-Centred Design"
       ]
     },
     {
       "index": "02",
-      "title": "Development & Data",
+      "title": "Development, AI & Data",
       "description": "Bringing ideas into working software and evidence-based experiments.",
       "skills": [
         "HTML & CSS",
@@ -24,8 +28,17 @@
         "Node.js",
         "Python",
         "SQL / MySQL",
+        "MongoDB",
+        "Flask",
+        "Git & GitHub",
         "C++",
-        "Machine Learning"
+        "Machine Learning",
+        "Deep Learning",
+        "TensorFlow",
+        "Keras",
+        "Scikit-learn",
+        "Streamlit",
+        "Ollama"
       ]
     },
     {
@@ -38,13 +51,14 @@
         "Brand Visuals",
         "Photography",
         "Cloud Fundamentals",
-        "AWS / Azure / GCP Exposure"
+        "AWS / Azure / GCP",
+        "Linux"
       ]
     }
   ],
   "certifications": [
     "Microsoft Word Expert Certification",
-    "Web Development",
+    "Web Development — HTML, CSS, JavaScript, Bootstrap",
     "Graphic Design & Logo Design",
     "Photography & Videography",
     "Cloud Computing",
@@ -72,66 +86,92 @@
   ],
   "experience": [
     {
-      "role": "UI/UX Designer Intern",
+      "role": "UI/UX Intern",
       "organization": "U Devs Software & Digital Solutions",
-      "period": "Oct 2026 — Present",
-      "detail": "Designing user interfaces and user experiences for software and digital products.",
+      "period": "Jul 2026 — Present",
+      "detail": "Redesigning live websites with modern UI/UX practices, improving layout, usability and visual consistency on real projects.",
       "area": "UI/UX"
+    },
+    {
+      "role": "UI/UX Mentor",
+      "organization": "Zee Outsourcing UK (Remote)",
+      "period": "Oct — Nov 2026",
+      "detail": "Mentored students in HCI fundamentals and Figma, from workspace setup to animation, components, variables and interactions, with hands-on feedback.",
+      "area": "Mentoring"
     },
     {
       "role": "Graphic Designer & Video Editor",
       "organization": "Datawavez Technologies",
-      "period": "Jul 2026 — Present",
-      "detail": "Creative production and fast-moving cross-team coordination in a deadline-driven environment.",
+      "period": "Jul — Oct 2026",
+      "detail": "Social campaigns and reels with the Dermics clinic team, raising awareness of skin health, treatments and services.",
       "area": "Design"
-    },
-    {
-      "role": "Graphic Designer, Video Editor & Social Media Handler",
-      "organization": "NUSK IT Consultancy Ltd",
-      "period": "Feb 2025 — Present",
-      "detail": "End-to-end branded content, social media strategy and analytics-informed creative iterations.",
-      "area": "Creative strategy"
-    },
-    {
-      "role": "X (Twitter) Graphic Designer",
-      "organization": "NEXA Strategies Ltd",
-      "period": "2024 — Present",
-      "detail": "Audience-focused visuals, campaign collaboration and content performance analysis.",
-      "area": "Digital growth"
-    },
-    {
-      "role": "UI/UX Design Intern",
-      "organization": "Bronto Brains",
-      "period": "2024 — Present",
-      "detail": "Design contributions and creative problem solving across evolving brand requirements.",
-      "area": "UI/UX"
     },
     {
       "role": "Cloud Engineering Intern",
       "organization": "Zee Outsourcing Solutions",
       "period": "Jun — Aug 2026",
-      "detail": "Exposure to AWS, Azure and Google Cloud, with deployment, scaling, monitoring and cloud infrastructure fundamentals.",
+      "detail": "Worked across AWS, Azure and GCP on deployment, scaling and monitoring, and designed infrastructure with containers, virtualisation and serverless.",
       "area": "Cloud"
+    },
+    {
+      "role": "Graphic Designer, Video Editor & Social Media Handler",
+      "organization": "NUSK IT Consultancy Ltd",
+      "period": "Feb 2025 — Mar 2026",
+      "detail": "Research-led graphic posts and YouTube content for Dr. Khalid, with content-strategy KPIs refined through platform analytics.",
+      "area": "Creative strategy"
+    },
+    {
+      "role": "X (Twitter) Graphic Designer — Growth & Monetisation",
+      "organization": "NEXA Strategies Ltd",
+      "period": "2024 — 2025",
+      "detail": "Trend-led graphics for growth and monetisation, using impressions, CTR and follower data to shape a weekly content roadmap.",
+      "area": "Digital growth"
+    },
+    {
+      "role": "Computer Science Teacher",
+      "organization": "Al-Suffah Academy & Avalon Academy",
+      "period": "Aug 2023 — Jun 2025",
+      "detail": "Designed and delivered a structured CS curriculum, from syllabus planning to outcome tracking, adapting to learner feedback and progress.",
+      "area": "Education"
+    },
+    {
+      "role": "UI/UX Design Intern",
+      "organization": "Bronto Brains",
+      "period": "Oct — Dec 2024",
+      "detail": "Delivered design solutions under tight deadlines, balancing innovation with practical implementation.",
+      "area": "UI/UX"
     },
     {
       "role": "Admissions Department Intern",
       "organization": "Bahria University Lahore",
       "period": "Jul — Aug 2024",
-      "detail": "Applicant workflows, stakeholder communication and process improvement opportunities.",
+      "detail": "Identified workflow inefficiencies in applicant data handling and proposed structured improvements.",
       "area": "Operations"
-    },
-    {
-      "role": "Online Computer Science Teacher",
-      "organization": "Al-Suffah Academy & Avalon Academy",
-      "period": "Aug 2023 — Jun 2025",
-      "detail": "Curriculum design, structured teaching and iterative feedback-informed learning experiences.",
-      "area": "Education"
     }
   ],
   "featuredProjects": [
     {
+      "id": "courtroom",
+      "title": "AI 3D Courtroom Simulator",
+      "subtitle": "Practise advocacy before the real trial.",
+      "category": "AI & Data",
+      "type": "Final year project · Proposed",
+      "description": "A proposed browser-based 3D courtroom where law students practise oral advocacy against an AI Judge, Opposing Counsel and 12 virtual jurors, with arguments evaluated through speech processing and language models.",
+      "tags": [
+        "React.js",
+        "Three.js",
+        "FastAPI",
+        "PostgreSQL",
+        "LLMs"
+      ],
+      "url": null,
+      "visual": "courtroom",
+      "featured": true,
+      "number": "01"
+    },
+    {
       "id": "moodwave",
-      "number": "01",
+      "number": "02",
       "title": "MoodWave",
       "subtitle": "Music that meets your mood.",
       "category": "Web Apps",
@@ -150,17 +190,17 @@
     },
     {
       "id": "traffic",
-      "number": "02",
+      "number": "03",
       "title": "Traffic Sign Detection",
       "subtitle": "Smarter recognition through AI.",
       "category": "AI & Data",
       "type": "Machine learning",
-      "description": "A CNN-based traffic sign classification project built with TensorFlow and an interface for image or camera input. The GitHub description reports 95% accuracy on GTSRB.",
+      "description": "A CNN-based traffic sign classifier trained on the GTSRB dataset, with a Streamlit interface for interactive image predictions across 43 sign classes.",
       "tags": [
         "Python",
         "TensorFlow",
-        "CNN",
-        "Computer Vision"
+        "Streamlit",
+        "CNN"
       ],
       "url": "https://github.com/MaidaAdeelKhan/Traffic-Sign-Detection",
       "visual": "traffic",
@@ -168,7 +208,7 @@
     },
     {
       "id": "cancer",
-      "number": "03",
+      "number": "04",
       "title": "Cancer Research · ML Regression",
       "subtitle": "Understanding data with care.",
       "category": "AI & Data",
@@ -184,8 +224,61 @@
       "visual": "research"
     },
     {
+      "id": "waste",
+      "title": "Waste Classification",
+      "subtitle": "Sorting trash with transfer learning.",
+      "category": "AI & Data",
+      "type": "Deep learning",
+      "description": "An image classifier that sorts waste into six categories using ResNet18 transfer learning and data augmentation, reaching 83.95% test accuracy and a 0.8047 Matthews Correlation Coefficient.",
+      "tags": [
+        "Python",
+        "TensorFlow",
+        "ResNet18",
+        "CNN"
+      ],
+      "url": null,
+      "visual": "waste",
+      "featured": null,
+      "number": "05"
+    },
+    {
+      "id": "digits",
+      "title": "Handwritten Digit Recognition",
+      "subtitle": "Teaching networks to read numbers.",
+      "category": "AI & Data",
+      "type": "Neural networks",
+      "description": "Neural network architectures compared on MNIST and evaluated with accuracy, macro F1 and Matthews Correlation Coefficient, with a baseline model reaching 95.13% test accuracy.",
+      "tags": [
+        "Python",
+        "TensorFlow",
+        "Keras",
+        "MNIST"
+      ],
+      "url": null,
+      "visual": "digits",
+      "featured": null,
+      "number": "06"
+    },
+    {
+      "id": "localai",
+      "title": "Local AI Academic Assistant",
+      "subtitle": "Private answers, running on my own machine.",
+      "category": "AI & Data",
+      "type": "Local LLM",
+      "description": "A locally hosted academic question-answering assistant built for a Deep Learning assignment, exploring local LLM deployment and inference with Ollama and Qwen3 1.7B.",
+      "tags": [
+        "Ollama",
+        "Qwen3 1.7B",
+        "Python"
+      ],
+      "url": null,
+      "visual": "localai",
+      "featured": null,
+      "number": "07"
+    },
+    {
       "id": "movies",
-      "number": "04",
+      "number": "08",
       "title": "Movie Recommendation System",
       "subtitle": "Discovery driven by preferences.",
       "category": "Web Apps",
@@ -201,7 +294,7 @@
     },
     {
       "id": "codealpha",
-      "number": "05",
+      "number": "09",
       "title": "Frontend Design Lab",
       "subtitle": "Small interactions, better experiences.",
       "category": "Web Apps",
@@ -217,7 +310,7 @@
     },
     {
       "id": "showroom",
-      "number": "06",
+      "number": "10",
       "title": "Fantasy Car Showroom",
       "subtitle": "An exploration in C++.",
       "category": "Software",
@@ -392,6 +485,32 @@
       "alt": "Whey protein ad listing per-serving nutrition and added amino acids",
       "w": 1200,
       "h": 1200
+    }
+  ],
+  "leadership": [
+    {
+      "role": "Graphic Designer Lead",
+      "organization": "Google Developer Groups on Campus (GDGoC), BULC",
+      "period": "Sep 2024 — Present",
+      "detail": "Leads chapter design and helps run events including UI/UX and Graphic Design Competitions, Women's Day, FYP Open House and a UI/UX Workshop."
+    },
+    {
+      "role": "Chapter Head",
+      "organization": "Interaction Design Foundation (IxDF), BULC",
+      "period": "Chapter lead",
+      "detail": "Led the BULC chapter, organising design competitions, webinars, seminars, speaker sessions and women-empowerment initiatives."
+    },
+    {
+      "role": "Media Member",
+      "organization": "IEEE, BULC",
+      "period": "Media team",
+      "detail": "Supported media and event organisation, including Codex and photography and videography activities."
+    },
+    {
+      "role": "Canva Ambassador",
+      "organization": "Canva, BULC",
+      "period": "Present",
+      "detail": "Organises online and on-campus events on Canva features and Canva-based design competitions."
     }
   ]
 }

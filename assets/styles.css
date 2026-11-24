@@ -582,3 +582,20 @@ html, body { max-width: 100%; overflow-x: clip; }
   .design-card { margin-bottom: 12px; border-radius: 12px; }
   .design-card figcaption { padding: 10px 11px 12px; }
 }
+
+/* Metric-style project visuals (courtroom, waste, digits, local AI) */
+.metric-scene { background: radial-gradient(circle at 85% 12%,rgba(168,153,250,.45),transparent 42%),linear-gradient(140deg,#1b1f38,#0f1120); display:flex; align-items:center; justify-content:center; }
+.metric-waste { background: radial-gradient(circle at 15% 90%,rgba(200,250,124,.28),transparent 45%),linear-gradient(140deg,#17302a,#0d1a17); }
+.metric-digits { background: radial-gradient(circle at 80% 15%,rgba(254,143,155,.35),transparent 45%),linear-gradient(140deg,#2a1d3a,#120e1d); }
+.metric-localai { background: radial-gradient(circle at 20% 15%,rgba(160,230,204,.25),transparent 45%),linear-gradient(140deg,#14232b,#0a1116); }
+.metric-card { width: 83%; max-width: 465px; padding: 22px 24px; border: 1px solid rgba(255,255,255,.16); border-radius: 12px; background: rgba(255,255,255,.06); backdrop-filter: blur(6px); box-shadow: 12px 20px 45px rgba(0,0,0,.32); color: #f2f4fa; transform: rotate(-2deg); }
+.metric-top { display:flex; justify-content:space-between; align-items:center; gap:12px; font-size:9px; font-weight:800; letter-spacing:.12em; color:#aeb6d4; }
+.metric-top i { font-style:normal; font-family:var(--display); font-size:15px; letter-spacing:0; color:#c8fa7c; }
+.metric-headline { margin: 22px 0 24px; font-family: var(--display); font-size: clamp(28px,3.6vw,40px); font-weight: 800; line-height: 1.05; letter-spacing: -.045em; }
+.metric-chips { display:flex; flex-wrap:wrap; gap:8px; }
+.metric-chips span { padding:6px 11px; border:1px solid rgba(255,255,255,.2); border-radius:999px; font-size:10px; font-weight:700; letter-spacing:.04em; color:#dfe4f6; }
+.project-featured .metric-card { padding-block: 30px; }
+.leadership-block { margin-top: 0; }
+.leadership-grid { grid-template-columns: repeat(4,1fr); gap: 26px; }
+@media (max-width: 1100px) { .leadership-grid { grid-template-columns: repeat(2,1fr); } }
+@media (max-width: 600px) { .leadership-grid { grid-template-columns: 1fr; } .metric-card { width: 85%; } }
